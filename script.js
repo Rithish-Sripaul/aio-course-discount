@@ -37,7 +37,7 @@ fetch(URL)
                             <a class="cat_btn" href="#">${cour?.tag}</a>
                             <a href="#"># ${count}</a>
                         </div>.
-                        <a href="single-blog.html" onclick="sessionStorage.setItem('course_name','${cour?.title}')"><h4>${cour?.title}</h4></a>
+                        <a href="${cour?.slug}" onclick="sessionStorage.setItem('course_name','${cour?.title}')"><h4>${cour?.title}</h4></a>
                         <p>${cour?.excerpt}</p>
                         <a class="blog_btn" href="#">Read More</a>
                     </div>
